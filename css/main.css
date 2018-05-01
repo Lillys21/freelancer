@@ -1,3 +1,227 @@
-/*
- * Estilos de tu proyecto
- */
+/*------------------------------*/
+/*ESTILOS HEADER*/
+/*------------------------------*/
+header{
+  background-color: #2C3E50;
+  height: 60px;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+}
+
+.title p{
+  color: #ffffff;
+  font-size: 20px;
+  float: left;
+  margin-left: 70px;
+  bottom: 20px;
+
+
+}
+.menu{
+  margin-right: 70px;
+}
+ .menu a{
+  text-decoration: none;
+  padding: 23px 30px 10px 20px;
+  display: block;
+  font-size: 14px;
+  float: right;
+  color: #ffffff;
+}
+
+/*------------------------------*/
+/*ESTILOS MAIN*/
+/*------------------------------*/
+main .principal{
+  background-color: #04B486;
+  text-align: center;
+  color: #ffffff;
+}
+.principal .photo{
+  padding: 70px;
+}
+.principal .photo img{
+}
+.principal h1{
+  font-size: 50px;
+  padding: 0;
+}
+/*------------------------------*/
+/*         ESTILOS ABOUT        */
+/*------------------------------*/
+.about{
+  background-color: #04B486;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  height: 600px;
+}
+.about h1{
+padding-top: 50px;
+}
+.about a{
+border: 2px solid white;
+text-decoration: none;
+color: #ffffff;
+font-size: 20px;
+padding: 20px 0 30px 0;
+position: absolute;
+top: 1850px;
+left: 45%;
+}
+.about a img{
+  height: 20px;
+  width: 20px;
+}
+.col{
+  width: 65%;
+  display: inline-block;
+  /*outline: 1px solid #ffffff;*/
+  margin-top: 0;
+}
+ .col1{
+ width: 400px;
+  /*outline: 1px solid #ffffff;*/
+  float: right;
+}
+ .col1 p{
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+.col2{
+width: 400px;
+/*outline: 1px solid #ffffff;*/
+}
+.col2 p{
+font-size: 20px;
+}
+/*------------------------------*/
+/*      ESTILOS CONTACT         */
+/*------------------------------*/
+.contact .top h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+.contact .top p{
+  color:#151515;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Gill Sans", sans-serif;
+}
+.contact-form{
+  border: 1px solid #CED5D7;
+  border-radius: 6px;
+  padding: 45px 45px 20px;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+.contact-form label{
+  display: block; /* esto es para que el label se sobreponga a la caja de texto */
+  font-weight: bold;
+  }
+.contact-form div{
+  margin-bottom: 15px; /* esto los separara un poco */
+}
+.contact-form input[type='text'], .contact textarea{
+  padding: 7px 6px;
+  width: 294px; /* una longitud definida */
+  border: 1px solid #CED5D7;
+  resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+  box-shadow:0 0 0 3px #EEF5F7;
+  margin: 5px 0;
+}
+.contacto-form input[type='text']:focus, .contact-form textarea:focus{
+  outline: none; /* reset especifico para Chrome/Safari */
+  box-shadow:0 0 0 3px #dde9ec;
+}
+.contact-form input[type='submit']{
+  border: 1px solid #CED5D7;
+  box-shadow:0 0 0 3px #EEF5F7;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px white;
+  background: #e4f1f6; /* fallback para navegadores que no soporten degradados */
+  background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+  background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+.contact-form input[type='submit']:hover{
+  background: #edfcff;
+  background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+  background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+.contact-form input[type='submit']:active{
+  background: #cfe6ef;
+  background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+  background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+/*------------------------------*/
+/*      ESTILOS PORTFOLIO       */
+/*------------------------------*/
+.portfolio{
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+.portfolio h2{
+text-align: center;
+}
+.portfolio p{
+  text-align: center;
+}
+.portfolio .image{
+  display: inline-block;
+  margin-left: 10%;
+}
+.portfolio .image img{
+  height: 30%;
+  width: 30%;
+}
+/*------------------------------*/
+/*      ESTILOS FOOTER          */
+/*------------------------------*/
+.top-footer{
+  background-color: #17202A;
+  /*outline: 1px solid #000000;*/
+  left:0;
+  top: 2750px;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+}
+.box{
+  float: left;
+  color: #ffffff;
+  width: 20%;
+  padding: 5px;
+  margin:5px 80px;
+  text-align: center;
+  /*outline: 1px solid #ffffff;*/
+  font-family: "Montserrat",sans-serif;
+}
+.bottom-footer{
+  background-color: #151515;
+  top: 2948px;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  left: 0;
+}
+.bottom-footer p{
+  color:#ffffff;
+  text-align: center;
+  padding: 10px;
+  font-family: "lato", sans-serif;
+}
+ .box p a{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+ .box p a:hover{
+  color: #04B486;
+}
